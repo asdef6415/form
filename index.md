@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+<html>
+<H1>FORM1</H1>
+<form action="https://www.litv.tv/vod/movie/list.do"method="GET">
+<input type="text" name="category_id" class="text left">
+<input type="submit" vaule="搜尋">
+</form>
 
-You can use the [editor on GitHub](https://github.com/asdef6415/form/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<H1>FORM2</H1>
+<br>
+<form action="https://www.litv.tv/vod/movie/list.do"method="GET">
+<select name="category_id">
+<option value="124">熱門排行</option>
+<option value="123">最新上架</option>
+<option value="312">韓國電影</option>
+<option value="127">日韓精選</option>
+<option value="392">動畫電影瘋</option>
+</select>
+<input type="submit" vaule="搜尋">
+</form>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<H1>FORM3</H1>
+<form action="https://www.litv.tv/search/search.do"method="GET">
+<input type="text" name="search_input">
+<input type="submit" vaule="搜尋">
+</form>
 
-### Markdown
+<H1>FORM4 網址/顏色</H1>
+<input type="url" name="url" value="網址">
+<input type="color" name="color">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<H1>HTML5 日期/時間/電話</H1>
 
-```markdown
-Syntax highlighted code block
+<input type="date" name="date">
+<input type="time" name="time">
+<input type="tel" name="tel" value="電話">
 
-# Header 1
-## Header 2
-### Header 3
+</html>
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/asdef6415/form/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
